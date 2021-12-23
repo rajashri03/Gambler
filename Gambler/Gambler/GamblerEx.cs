@@ -14,10 +14,11 @@ namespace Gambler
             int Money = 100;
             Random bet_num = new Random();
             int check = bet_num.Next(0, 100);
+            Console.WriteLine("Started:");
             Console.WriteLine(check);
             if (Bet == check)
             {
-                Console.WriteLine("Win");
+                Console.WriteLine("You Win");
             }
             else
             {
